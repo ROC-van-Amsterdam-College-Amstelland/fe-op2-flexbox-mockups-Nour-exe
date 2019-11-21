@@ -1,3 +1,109 @@
 html, body{
     height: 100%;
 }
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    display:flex;
+   }
+    
+
+    
+   header{
+    display: flex;
+    background-color:green;
+    height: 20%;
+    width: 100%;
+    align-items: center;
+   }
+    
+   main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;    
+    background-color: orange;
+
+
+   }
+    
+   #menu-button1, #menu-button2 , #menu-button3{
+    display: flex;
+    width: 70px;
+    height: 50px;
+    background-color: lightgray;
+    align-items: center;
+   }
+    
+   #item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    height: 90%;
+    background-color:orange;
+    
+   }
+    
+   #item2{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    height: 90%;
+   
+   }
+    
+   #item3{
+    display: flex;
+    height: 150px;
+    width: 0%;
+    background-color: violet;
+   }
+
+   img{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+   }
+
+   body{
+    display: flex;
+    flex-direction: column;
+   }
+    footer{
+    height: 10%;
+    width: 100%;
+    background-color: violet;
+    display: flex;
+    
+    }
+    
+    #item40{
+        height: 50%;
+        width: 50%;
+
+
+    }
+
+    header img{
+     height: 20%;       
+     width: 30%;  
+     display: flex;
+     justify-content: center;
+    align-items: center;
+
+
+    }
+    
+    .Knopjes{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-content: center;
+        width: 70%;
+        height: 20%;
+    }
